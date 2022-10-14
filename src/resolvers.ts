@@ -1,6 +1,6 @@
 import { QueryResolvers, Resolvers } from './types/types';
 import { cities } from './dataSource';
-import { getTheDistanceInKms, pairwiseSum } from './utils';
+import { getTheDistanceInKms } from './utils';
 /**
  * Read the shortest path based on the origin
  * @returns Array of the shortest path - [{id, name, distance, country}]
